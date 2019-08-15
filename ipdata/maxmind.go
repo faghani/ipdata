@@ -1,11 +1,4 @@
-package ipdata /* import "s32x.com/ipdata/ipdata" */
-
-const (
-	maxMindDB       = "http://geolite.maxmind.com/download/geoip/database/"
-	geoLite2City    = maxMindDB + "GeoLite2-City.tar.gz"
-	geoLite2Country = maxMindDB + "GeoLite2-Country.tar.gz"
-	geoLite2ASN     = maxMindDB + "GeoLite2-ASN.tar.gz"
-)
+package ipdata
 
 // ASN is the query response for ASN lookups
 type ASN struct {

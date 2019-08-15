@@ -1,0 +1,20 @@
+{
+  "name": "ipdata",
+  "profile": "default",
+  "lambda": {
+    "warm": true,
+    "warm_count": 5
+  },
+  "regions": [
+    "us-east-1"
+  ],
+  "stages": {
+    "production": {
+      "domain": "ipdata.info",
+      "zone": false
+    }
+  },
+  "error_pages": {
+    "disable": true
+  }
+}
